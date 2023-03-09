@@ -5,11 +5,19 @@
         <title>Formularios</title>
     </head>
     <body>
-        <form>
-            Nombre de usuario
-            <input>
-            Contraseña
-            <input>
+        <form action="resultados.html" method="GET">
+            <div>
+                <lable for="nombreUsuario">Nombre de usuario</lable>
+                <input id="nombreUsuario" name="nombreUsuario">
+            </div>
+            <div>
+                <lable for="pass">Contraseña</lable>
+                <input id="pass" name="pass">
+            </div>
+            <div>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
             <button>Enviar</button>
         </form>
     </body>
