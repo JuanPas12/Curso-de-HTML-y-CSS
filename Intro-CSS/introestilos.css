@@ -1,0 +1,16 @@
+/*ESTILOS PARA COLORES*/
+.colores{
+    color: orange;
+}
+
+.color-hexadecimal{
+    color: #B57BA6;
+}
+
+.color-rgb{
+    color: rgb(206, 8, 217);
+}
+
+.color-rgba{
+    color: rgba(125, 45, 98, 10);
+}
