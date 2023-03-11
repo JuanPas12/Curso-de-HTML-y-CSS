@@ -1,16 +1,25 @@
 /*ESTILOS PARA COLORES*/
-.colores{
+.colores {
     color: orange;
 }
 
-.color-hexadecimal{
-    color: #B57BA6;
+.color-hexadecimal {
+    color: #b57ba6;
 }
 
-.color-rgb{
+.color-rgb {
     color: rgb(206, 8, 217);
 }
 
-.color-rgba{
+.color-rgba {
     color: rgba(125, 45, 98, 10);
 }
+
+.fondo {
+    background-color: #2f97c1;
+}
+
+.fondo-imagen{
+    background-image: url(https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000);
+}
+
