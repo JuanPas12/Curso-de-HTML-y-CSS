@@ -23,3 +23,21 @@
     background-image: url(https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000);
 }
 
+.ancho{
+    background-color: red;
+    width: 100px;
+}
+
+.alto{
+    background-color: blue;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid ;
+    border-color: #FFE45E;
+    border-width: 1px;
+    /*border-top: 0px;*/
+    padding: 10px 20px;
+    margin-top: 10px;
+}
