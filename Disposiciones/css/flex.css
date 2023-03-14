@@ -5,7 +5,7 @@
     height: 300px;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .contenido-1 {
