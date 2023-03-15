@@ -1,0 +1,11 @@
+/*.p-conenedor{
+    color: darkslateblue;
+}*/
+
+section.main .contenedor p{
+    color: brown;
+}
+
+.contenedor #boton-contenedor{
+    background-color: coral;
+}
