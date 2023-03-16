@@ -1,0 +1,19 @@
+.h1-class {
+    color: yellow;
+}
+
+#h1-id {
+    color: blueviolet;
+}
+
+h1 {
+    color: blue;
+}
+
+h1 {
+    color: darksalmon !important; /*Evitar en la medida de lo posible */
+}
+
+p {
+    color: rgb(205, 90, 90);
+}
