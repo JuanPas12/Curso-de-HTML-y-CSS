@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(49, 49, 49);
+}
+
+.btn-modern {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.btn-modern:hover {
+    background-color: white;
+    color: cornflowerblue;
+    border-bottom: 3px solid rgb(155, 155, 155);
+    transition: background-color 0.4s;
+    animation: transladar 0.4s ease-in-out forwards;
+}
+
+@keyframes transladar {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+    100% {
+        transform: translateX(0%) translateY(-5px);
+    }
+}
