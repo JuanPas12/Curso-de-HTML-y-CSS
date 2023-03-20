@@ -1,0 +1,27 @@
+body{
+    display: flex;
+}
+
+.principal{
+    background-color: cadetblue;
+    padding: 0.5rem;
+    flex-grow: 1;
+}
+
+.barra-lateral{
+    background-color: blueviolet;
+    padding: 0.5rem;
+    width: 5rem;
+}
+
+@media (max-width: 640px){
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .barra-lateral{
+        display: flex;
+        flex-direction: row;
+    }
+}
