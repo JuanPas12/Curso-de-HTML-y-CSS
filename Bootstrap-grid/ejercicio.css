@@ -1,0 +1,20 @@
+.row div{
+    margin:0.25rem;
+    width: 100vw;
+}
+
+.col-sm{
+    background-color: blue;
+}
+
+.col-md{
+    background-color: blueviolet;
+}
+
+.col-lg{
+    background-color: chartreuse;
+}
+
+.col-xl{
+    background-color: crimson;
+}
