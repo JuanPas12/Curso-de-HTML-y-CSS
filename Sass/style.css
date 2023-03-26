@@ -20,7 +20,7 @@ body {
 
 .container {
   width: 100%;
-  background-color: azure;
+  background-color: aliceblue;
   min-height: 100vh;
   padding: 0.5rem;
 }
@@ -56,4 +56,6 @@ p {
 }
 .listado ul li:active {
   color: red;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

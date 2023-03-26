@@ -1,3 +1,5 @@
+@use "mixins";
+
 body {
     padding: 0;
     margin: 0;
@@ -5,18 +7,18 @@ body {
 
 .container {
     width: 100%;
-    background-color: azure;
+    background-color: aliceblue;
     min-height: 100vh;
     padding: 0.5rem;
 }
 
 h1 {
     margin: 0;
-    @include formato-texto();
+    @include mixins.formato-texto();
 }
 
 p {
-    @include formato-texto(#666666);
+    @include mixins.formato-texto(#666666);
 }
 
 .listado {

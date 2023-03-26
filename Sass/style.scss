@@ -1,9 +1,11 @@
 //Componentes
-@import "sass/componentes";
+@use "sass/componentes";
+//namespace 
+//$color -> componentes.$color
 
 //Mixin
-
-@import "sass/mixins";
+@use "sass/mixins";
+//$color -> mixins.$color
 
 //Estilos
-@import "sass/estilos";
+@use "sass/estilos";
