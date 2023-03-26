@@ -1,4 +1,51 @@
-h1 {
-    color: red;
+@mixin formato-texto($bg-color: #f1f1f1) {
+    width: 50rem;
+    color: $text-color;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}
+
+$text-color: #3f3f3f;
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
     background-color: azure;
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+
+h1 {
+    margin: 0;
+    @include formato-texto();
+}
+
+p {
+    @include formato-texto(#666666);
+}
+
+.listado {
+    width: 10rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+
+    ul {
+        margin: 0 0.5rem;
+
+        li {
+            list-style: none;
+
+            &:hover{
+                color: white;
+            }
+
+            &:active{
+                color: red;
+            }
+        }
+    }
 }
