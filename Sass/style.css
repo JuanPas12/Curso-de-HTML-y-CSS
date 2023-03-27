@@ -58,4 +58,7 @@ p {
   color: red;
 }
 
+/*$border-2: [solid, 1px, #ccc];
+@debug list.is-bracketed(border-2);*/
+
 /*# sourceMappingURL=style.css.map */
