@@ -113,4 +113,23 @@ body {
   max-width: 7rem;
 }
 
+.sec-home {
+  display: flex;
+  width: 100%;
+  padding: 5rem;
+  align-items: center;
+  max-width: 768px;
+  margin: auto;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075ff;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */

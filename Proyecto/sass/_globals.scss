@@ -1,9 +1,11 @@
-body{
+@use "components";
+
+body {
     padding: 0;
     margin: 0;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,6 +14,26 @@ body{
     border-bottom: solid 1px #ddd;
 }
 
-.logo a img{
+.logo a img {
     max-width: 7rem;
+}
+
+.sec-home {
+    display: flex;
+    width: 100%;
+    padding: 5rem;
+    align-items: center;
+    max-width: 768px;
+    margin: auto;
+    .home-cta {
+        flex: 1;
+        .cta-text {
+            color: components.$color-main;
+        }
+
+        .home-title {
+            width: 20rem;
+            font-size: 3rem;
+        }
+    }
 }
