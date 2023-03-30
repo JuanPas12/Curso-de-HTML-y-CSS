@@ -1,46 +1,92 @@
-.btn-main, .btn-main-s {
-  padding: 0.25rem 1.5rem;
-  border-radius: 0.25rem;
-  background-color: #0075ff;
-  color: white;
-  border: solid 1px #0075ff;
+.btn-main,
+.btn-main-s {
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.25rem;
+    background-color: #0075ff;
+    color: white;
+    border: solid 1px #0075ff;
 }
-.btn-main:hover, .btn-main-s:hover {
-  background-color: white;
-  color: #0075ff;
+.btn-main:hover,
+.btn-main-s:hover {
+    background-color: white;
+    color: #0075ff;
 }
 .btn-main-s {
-  font-size: 0.75rem;
-  padding: 0.1rem 1rem;
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
 }
 
-.btn-sec, .btn-sec-s {
-  padding: 0.25rem 1.5rem;
-  border-radius: 0.25rem;
-  color: #000000;
-  background-color: transparent;
-  border: none;
+.btn-sec,
+.btn-sec-s {
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.25rem;
+    color: #000000;
+    background-color: transparent;
+    border: none;
 }
-.btn-sec:hover, .btn-sec-s:hover {
-  color: #888;
+.btn-sec:hover,
+.btn-sec-s:hover {
+    color: #888;
 }
 .btn-sec-s {
-  font-size: 0.75rem;
-  padding: 0.1rem 1rem;
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
 }
 
 .main-menu li {
-  font-size: 0.5rem;
-  list-style: none;
-  display: inline;
+    font-size: 0.5rem;
+    list-style: none;
+    display: inline;
 }
 
 .icon-sm i {
-  font-size: 0.75rem;
-  color: #0075ff;
-  padding: 0.25rem;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3333333333);
+    font-size: 0.75rem;
+    color: #0075ff;
+    padding: 0.25rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3333333333);
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+}
+.feature .icon {
+    color: #0075ff;
+    font-size: 10rem;
+    text-align: center;
+}
+.feature .description .title {
+    font-size: 2rem;
+    text-align: center;
+}
+.feature .description .text {
+    color: #888;
+    font-weight: 600;
+    text-align: center;
+}
+.feature .cta {
+    color: #0075ff;
+    font-weight: 600;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.icon-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon-desc .icon {
+    padding: 0;
+    color: #0075ff;
+    font-size: 10rem;
+}
+.icon-desc .title {
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
