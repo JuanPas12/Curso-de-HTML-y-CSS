@@ -1,5 +1,12 @@
 @use "components";
 
+@mixin section-display {
+    width: 100%;
+    padding: 3rem;
+    max-width: 992px;
+    margin: auto;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -20,11 +27,8 @@ body {
 
 .sec-home {
     display: flex;
-    width: 100%;
-    padding: 5rem;
     align-items: center;
-    max-width: 768px;
-    margin: auto;
+    @include section-display();
     .home-cta {
         flex: 1;
         .cta-text {
@@ -34,6 +38,57 @@ body {
         .home-title {
             width: 20rem;
             font-size: 3rem;
+        }
+    }
+}
+
+.sec-features {
+    @include section-display();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .intro {
+        text-align: center;
+        h3 {
+            font-size: 1.8rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: #888;
+        }
+    }
+
+    .features{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        .text{
+            padding: 2rem 0;
+            flex: 1;
+            .feature{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .description{
+                    margin-left: 1rem;
+                    max-width: 20rem;
+                    .description-title{
+                        font-size: 1.15rem;
+                        text-align: left;
+                    }
+                    .description-text{
+                        font-size: 1rem;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        .image{
+            img{
+                max-width: 20rem;
+            }
         }
     }
 }

@@ -46,9 +46,10 @@ $color-main: #0075ff;
 .main-menu {
     margin-bottom: 0;
     li {
-        font-size: 0.75rem;
+        font-size: 1rem;
         list-style: none;
         display: inline;
+        margin-right: 2rem;
 
         a{
             color: black;
@@ -63,9 +64,9 @@ $color-main: #0075ff;
 
 .icon-sm {
     i {
-        font-size: 0.75rem;
+        font-size: 1.25rem;
         color: $color-main;
-        padding: 0.25rem;
+        padding: 0.4rem 0.65rem;
         border-radius: 50%;
         box-shadow: 0 0 10px #00000055;
     }
