@@ -59,25 +59,25 @@ body {
         }
     }
 
-    .features{
+    .features {
         display: flex;
         gap: 1rem;
         align-items: center;
-        .text{
+        .text {
             padding: 2rem 0;
             flex: 1;
-            .feature{
+            .feature {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                .description{
+                .description {
                     margin-left: 1rem;
                     max-width: 20rem;
-                    .description-title{
+                    .description-title {
                         font-size: 1.15rem;
                         text-align: left;
                     }
-                    .description-text{
+                    .description-text {
                         font-size: 1rem;
                         text-align: left;
                     }
@@ -85,10 +85,22 @@ body {
             }
         }
 
-        .image{
-            img{
+        .image {
+            img {
                 max-width: 20rem;
             }
         }
+    }
+}
+
+.sec-benefits {
+    border-top: 1px solid #ddd;
+    .intro {
+        @extend .sec-features, .intro;
+    }
+
+    .benefit-cards{
+        width: 100%;
+        padding: 0 2rem 2rem 2rem;
     }
 }
