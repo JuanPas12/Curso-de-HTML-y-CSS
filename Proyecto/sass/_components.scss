@@ -51,11 +51,11 @@ $color-main: #0075ff;
         display: inline;
         margin-right: 2rem;
 
-        a{
+        a {
             color: black;
             text-decoration: none;
-            
-            &:hover{
+
+            &:hover {
                 text-decoration: underline;
             }
         }
@@ -107,6 +107,7 @@ $color-main: #0075ff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     .icon {
         padding: 0;
         color: $color-main;
@@ -114,7 +115,7 @@ $color-main: #0075ff;
     }
 
     .title {
-        margin-top: -2rem;
+        margin-top: -1rem;
         font-size: 1.5rem;
         font-weight: 600;
     }

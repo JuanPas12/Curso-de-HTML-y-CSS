@@ -94,6 +94,7 @@ body {
 }
 
 .sec-benefits {
+    @include section-display();
     border-top: 1px solid #ddd;
     .intro {
         @extend .sec-features, .intro;
@@ -102,5 +103,47 @@ body {
     .benefit-cards{
         width: 100%;
         padding: 0 2rem 2rem 2rem;
+    }
+}
+
+.sec-kpis{
+    background-color: components.$color-main;
+    color: white;
+    padding: 2rem 4rem;
+    width: 100%;
+
+    .kpi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .number{
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+
+        .desc{
+            font-size: 0.9rem;
+            color: #ffffffaa;
+        }
+    }
+}
+
+.sec-onboarding{
+    .intro{
+        @extend .sec-features, .intro;
+    }
+
+    .steps{
+        padding: 0 7rem 5rem 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .step-separator{
+            flex: 1;
+            border-top: 2px solid #ddd;
+            margin: 0 1rem;
+        }
     }
 }
