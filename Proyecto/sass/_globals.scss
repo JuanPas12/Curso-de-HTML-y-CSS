@@ -7,6 +7,10 @@
     margin: auto;
 }
 
+html {
+    min-width: 100vw;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -38,6 +42,16 @@ body {
         .home-title {
             width: 20rem;
             font-size: 3rem;
+        }
+
+        .home-description {
+            width: 300px;
+        }
+
+        .lead-magnet {
+            .input-col {
+                max-width: 200px;
+            }
         }
     }
 }
@@ -111,7 +125,6 @@ body {
     color: white;
     padding: 2rem 4rem;
     width: 100%;
-
     .kpi {
         display: flex;
         flex-direction: column;
@@ -162,6 +175,47 @@ body {
 
         .cta-description {
             font-size: 1.1rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .sec-onboarding {
+        .steps {
+            flex-direction: column;
+        }
+        .icon-desc {
+            .title {
+                text-align: center;
+            }
+        }
+    }
+
+    .sec-footer-cta {
+        background-image: none;
+        .footer-cta {
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+
+    .sec-benefits {
+        .intro {
+            text-align: center;
+            h3 {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .sec-features{
+        .intro{
+            h3{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
         }
     }
 }
